@@ -3,6 +3,7 @@
 const slary = 24000;
 const BCS= true  ;
 const hight = 7;
+const car = false ;
 if (slary <23000 && BCS == true){
     console.log(' ai hai eida hoilo suu patro')
 }
@@ -18,4 +19,11 @@ if (slary < 2100 ||
 }
 else{
     console.log('onnota khuji')
+}
+// ............ complex condition ...................................
+if( (slary > 26000 && hight > 6) || car == false){
+    console.log( ' maiyar 14 gusti raji ')
+}
+else{
+    console.log('nah bhai maf chai ')
 }
